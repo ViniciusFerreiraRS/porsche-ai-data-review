@@ -12,6 +12,12 @@
 | **2. Quais modelos concentram mais pedidos?** | Compreender a composição do portfólio de veículos. | Ranking dos modelos mais frequentes. |
 | **3. Onde estão concentrados os pedidos?** | Identificar concentração geográfica e segmentar por mercado. | Ranking de estados e filtros por cidade. |
 
+## Evolução de UI/UX — da primeira à segunda versão
+
+A primeira versão priorizou a **exploração dos dados**, a qualidade da base e a apresentação detalhada dos indicadores. Na segunda, o objetivo foi **adaptar a interface à leitura executiva e à referência visual da Porsche Brasil**, com estética mais minimalista, elegante e refinada: preto, grafite, alto contraste e destaques discretos em vermelho. Essa evolução atende aos requisitos do segundo desafio e demonstra como uma solução analítica pode mudar conforme o público e os objetivos de negócio, preservando suas funcionalidades.
+
+**O que mudou na prática:** três perguntas de negócio passaram a orientar a leitura do painel; acrescentamos filtros por cidade e meio de pagamento; a evolução mensal ganhou destaque; e o layout foi reorganizado para uma apresentação mais sóbria. **A versão 1 permanece disponível**, permitindo comparar as escolhas de UI/UX.
+
 ## Funcionalidades
 
 - HTML **único**, com CSS, JavaScript e dados tratados incorporados, sem dependências externas.
