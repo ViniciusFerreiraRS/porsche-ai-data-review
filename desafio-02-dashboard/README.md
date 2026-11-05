@@ -32,6 +32,47 @@ O desenvolvimento ocorreu com apoio do **ChatGPT** para elaboração e revisão 
 
 **Briefing inicial — resumo fiel, não transcrição literal de uma única mensagem:** construir uma dashboard de vendas Porsche, com qualidade dos dados, proteção de informações pessoais, filtros, Big Cards, gráficos e publicação no GitHub Pages.
 
+### Prompt consolidado para reprodução (reconstruído)
+
+O texto abaixo é um **prompt consolidado reconstruído a partir do enunciado e das orientações dadas ao longo do desenvolvimento**; não é uma cópia literal de uma única mensagem histórica nem um registro de execução automatizada.
+
+```text
+Atue como especialista em engenharia de dados, desenvolvimento front-end e UI/UX.
+Crie um dashboard executivo sobre vendas/pedidos Porsche usando a planilha
+tratada do exercício Santander/DIO. A entrega deve ser um único arquivo
+index.html, contendo HTML, CSS, JavaScript e dados públicos tratados,
+executável localmente e publicável no GitHub Pages, sem backend ou dependências
+externas obrigatórias.
+
+Responda visivelmente a três perguntas de negócio:
+1. Como o volume e o valor registrado dos pedidos evoluem por mês?
+2. Quais modelos concentram mais pedidos?
+3. Em quais estados se concentram os pedidos?
+
+Inclua KPIs no topo (registros, valor registrado em USD, ticket médio,
+entregas e problemas de qualidade) e filtros combináveis por ano, mês,
+modelo, estado, cidade, método de pagamento e status de entrega.
+Mostre evolução temporal, rankings, status e insights. Os indicadores,
+gráficos e tabelas devem reagir aos filtros e oferecer botão de limpeza.
+
+Use uma identidade visual elegante, sóbria e responsiva, inspirada na
+linguagem de design da Porsche Brasil: fundo preto/grafite, tipografia
+sans-serif, alto contraste e acentos vermelhos discretos. Não reproduza
+logotipos, imagens nem fontes proprietárias.
+
+Respeite os cuidados de privacidade/LGPD: não inclua nomes de clientes,
+vendedores ou identificadores de origem na página. Preserve os 100
+registros tratados, destaque datas inválidas e datas futuras didáticas.
+Não invente datas ou resultados e deixe claro que valor registrado de
+pedidos não é lucro nem receita reconhecida.
+
+Forneça README documentando perguntas e razões, tratamento anterior,
+uso transparente da IA, evolução do prompt, links de publicação e
+capturas de tela com e sem filtros.
+```
+
+**Trajetória das alterações:** o primeiro briefing priorizava qualidade e exploração dos dados; o segundo enunciado exigiu três perguntas de negócio visíveis, indicadores de topo e um HTML único. Depois incorporamos **cidade e método de pagamento**, gráfico mensal com alternância entre quantidade e valor, design executivo inspirado na referência fornecida e evidências com filtros aplicados. As alterações foram revisadas no código e documentadas, sem alegar uso de Canvas ou de agente LLM autônomo.
+
 **Refinamentos da Parte 2:**
 1. Explicitar **três perguntas de negócio**, com gráficos correspondentes e justificativas.
 2. Incluir filtros de **cidade e pagamento** nos filtros já existentes.
