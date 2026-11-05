@@ -1,0 +1,34 @@
+{
+  "registros": 100,
+  "colunas_origem": 12,
+  "colunas_intercaladas": 27,
+  "datas_invalidas": 24,
+  "datas_futuras": 18,
+  "km_convertidos": 4,
+  "linhas_revisar": 24,
+  "duplicidades_id_origem": 0,
+  "clientes_pseudonimos": 94,
+  "vendedores_pseudonimos": 70,
+  "auditorias": 899,
+  "ocorrencias": {
+    "DATA_INVALIDA": 24,
+    "KM_CONVERTIDO_MI": 4,
+    "DATA_FUTURA_REFERENCIA": 18
+  },
+  "colunas_modificadas": {
+    "sale_id": 100,
+    "sale_date": 100,
+    "customer_name": 100,
+    "sale_price": 100,
+    "vehicle_mileage": 99,
+    "payment_method": 87,
+    "city": 30,
+    "state": 68,
+    "salesperson": 100,
+    "delivery_status": 91,
+    "model_year": 24
+  },
+  "data_referencia": "2026-11-04",
+  "aviso_financeiro": "Soma de preços registrados não equivale a lucro nem receita reconhecida.",
+  "aviso_lgpd": "Nomes e IDs fonte suprimidos. Pseudonimização não garante anonimização."
+}
