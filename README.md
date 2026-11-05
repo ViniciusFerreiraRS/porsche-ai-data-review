@@ -23,7 +23,9 @@ Dashboard interativo de vendas/pedidos de veículos com filtros de período, est
 | Datas inválidas sinalizadas | 24 |
 | Datas futuras sinalizadas | 18 |
 
-> A captura visual do dashboard pode ser adicionada ao repositório como `preview_dashboard.png`. Os cards e filtros reais estão implementados em `index.html`.
+A prévia abaixo apresenta o dashboard criado para o exercício. Os cards e filtros funcionais estão implementados em [`index.html`](index.html).
+
+![Prévia do dashboard Porsche com Big Cards e gráficos](./preview_dashboard%20%281%29.png)
 
 Os **Big Cards/KPIs** no topo exibem registros, valor total registrado (não faturamento), ticket médio, entregas e datas a revisar. Cada card é atualizado pelos filtros de ano, mês, modelo, estado e situação da entrega. A interpretação do conjunto é complementada pelos gráficos, insights e relatório de qualidade.
 
@@ -35,7 +37,7 @@ Os **Big Cards/KPIs** no topo exibem registros, valor total registrado (não fat
 
 1. Abra [`index.html`](index.html) em qualquer navegador moderno — funciona sem servidor e sem bibliotecas externas.
 2. Use os filtros de ano, mês, modelo, estado e entrega. Os cards, gráficos e insights se atualizam.
-3. Consulte [`dados_intercalados_publicos.csv`](dados_intercalados_publicos.csv) para conferir a base com colunas fonte/tratada, sem identificadores pessoais diretos. O Excel correspondente é um artefato opcional, gerável localmente.
+3. Consulte [`dados_intercalados_publicos.csv`](dados_intercalados_publicos.csv) para conferir a base com colunas fonte/tratada, sem identificadores pessoais diretos. A versão Excel já está disponível em [`planilha_porsche_tratada.xlsx`](planilha_porsche_tratada.xlsx).
 4. Leia [`data_review.md`](data_review.md) para entender problemas encontrados e critérios de limpeza.
 5. Consulte [`schema.md`](schema.md) para os tipos, métricas, regras, segurança e limitações.
 
@@ -106,7 +108,7 @@ fonte permitida → tratado | fonte permitida → tratado | ...
     ↓ Agente de privacidade
 supressão de IDs, nomes de clientes e nomes de vendedores
     ↓ Agente de qualidade e auditoria
-porsche_dados_intercalados.xlsx + CSV público + auditoria + JSON de métricas
+planilha_porsche_tratada.xlsx + CSV público + auditoria + JSON de métricas
     ↓ Analista valida → Dashboard e documentação
 ```
 
@@ -126,7 +128,7 @@ python pipeline_tratamento.py --entrada dados_brutos/exedio.xlsx --schema schema
 
 O script sempre gera `saida/dados_intercalados_publicos.csv`, `saida/auditoria_publica.csv`
 e `saida/metricas_qualidade.json`, usando apenas a biblioteca padrão do Python
-para o tratamento. O Excel de saída (`saida/porsche_dados_intercalados.xlsx`) é gerado
+para o tratamento. O Excel de saída (`saida/planilha_porsche_tratada.xlsx`) é gerado
 quando a biblioteca `artifact_tool` está disponível. A leitura de XLSX tem
 uma alternativa nativa baseada em ZIP/XML para planilhas simples como a do exercício.
 Se estiver em um ambiente sem `artifact_tool`, use o CSV gerado (abre no Excel).
@@ -144,7 +146,7 @@ colunas, preservação de registros e supressão dos identificadores protegidos.
 
 - `pipeline_tratamento.py` — código-fonte reproduzível dos agentes.
 - `test_pipeline.py` — testes automatizados.
-- `porsche_dados_intercalados.xlsx` — saída demonstrativa pronta para inspeção.
+- `planilha_porsche_tratada.xlsx` — saída demonstrativa pronta para inspeção.
 - `dados_intercalados_publicos.csv` — saída pública lado a lado.
 - `auditoria_publica.csv` — valores antes/depois para campos não sensíveis.
 - `metricas_qualidade.json` — indicadores do Data Review.
