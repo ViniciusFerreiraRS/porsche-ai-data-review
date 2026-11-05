@@ -1,0 +1,14 @@
+# Não versionar bases originais com dados pessoais
+/dados_brutos/
+/exedio.xlsx
+/exedio1.xlsx
+*original*.xlsx
+*bruto*.xlsx
+*.env
+.env*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/saida/
+/logs_privados/
+*.key
