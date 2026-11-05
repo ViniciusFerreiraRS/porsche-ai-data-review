@@ -14,7 +14,16 @@ Dashboard interativo de vendas/pedidos de veículos com filtros de período, est
 
 ## Prévia do dashboard e Big Cards
 
-![Prévia do dashboard interativo com Big Cards e gráficos](preview_dashboard.png)
+**Dashboard interativo:** arquivo [index.html](index.html). Para visualizá-lo como site, ative o GitHub Pages em Settings → Pages.
+
+| Big Card / Indicador | Base de demonstração |
+|---|---:|
+| Registros preservados | 100 |
+| Entregas registradas | 41 |
+| Datas inválidas sinalizadas | 24 |
+| Datas futuras sinalizadas | 18 |
+
+> A captura visual do dashboard pode ser adicionada ao repositório como `preview_dashboard.png`. Os cards e filtros reais estão implementados em `index.html`.
 
 Os **Big Cards/KPIs** no topo exibem registros, valor total registrado (não faturamento), ticket médio, entregas e datas a revisar. Cada card é atualizado pelos filtros de ano, mês, modelo, estado e situação da entrega. A interpretação do conjunto é complementada pelos gráficos, insights e relatório de qualidade.
 
@@ -26,7 +35,7 @@ Os **Big Cards/KPIs** no topo exibem registros, valor total registrado (não fat
 
 1. Abra [`index.html`](index.html) em qualquer navegador moderno — funciona sem servidor e sem bibliotecas externas.
 2. Use os filtros de ano, mês, modelo, estado e entrega. Os cards, gráficos e insights se atualizam.
-3. Abra [`porsche_dados_tratados.xlsx`](porsche_dados_tratados.xlsx) para conferir a base tratada, painel em Excel, agrupamento mensal, indicadores de qualidade, modelo de custos e dicionário de dados.
+3. Consulte [`dados_intercalados_publicos.csv`](dados_intercalados_publicos.csv) para conferir a base com colunas fonte/tratada, sem identificadores pessoais diretos. O Excel correspondente é um artefato opcional, gerável localmente.
 4. Leia [`data_review.md`](data_review.md) para entender problemas encontrados e critérios de limpeza.
 5. Consulte [`schema.md`](schema.md) para os tipos, métricas, regras, segurança e limitações.
 
@@ -57,7 +66,7 @@ Dashboard HTML + relatórios + schema.md
 ## Estrutura
 
 - `index.html` — dashboard funcional com dados públicos incorporados para operação offline.
-- `porsche_dados_tratados.xlsx` — arquivo tratado de trabalho e auditoria.
+- `dados_intercalados_publicos.csv` — resultado do pipeline com valores de origem permitidos e suas versões tratadas; `auditoria_publica.csv` e `metricas_qualidade.json` documentam o tratamento.
 - `dados_tratados_publicos.json` — dados transformados sem nomes diretos.
 - `schema.md` — contrato e dicionário de dados.
 - `data_review.md` — achados e decisões técnicas.
@@ -73,7 +82,7 @@ O controle local de custos do dashboard destina-se a despesas para **criar e man
 ## Publicação no GitHub Pages
 
 1. Crie um repositório novo (recomendado: `porsche-ai-data-review`).
-2. Adicione o conteúdo deste pacote, após confirmar que os dados podem ser publicados.
+2. O projeto já contém os scripts, JSON, CSV, auditoria e documentação. Arquivos Excel e imagem de captura podem ser adicionados manualmente após revisão.
 3. Em *Settings → Pages*, selecione *Deploy from a branch*, a branch principal e diretório `/ (root)`.
 4. A página `index.html` será a tela inicial do dashboard.
 
