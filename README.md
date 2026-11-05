@@ -4,9 +4,6 @@
 
 Projeto educacional desenvolvido no contexto do **Projeto Vinicius Dev**, com tratamento e validação de dados em Python, documentação `schema.md`, medidas de proteção de dados pessoais e dashboard interativo para análise de vendas Porsche. A construção contou com assistência de IA, revisão das regras e testes automatizados. Não é um produto ou projeto oficial da DIO, do Santander ou da Porsche.
 
-**Tópicos sugeridos para o GitHub:** `dio` · `santander` · `ai-reports` · `python` · `data-cleaning` · `etl` · `dashboard` · `lgpd` · `business-intelligence`.
-
-
 
 ## Visão geral
 
