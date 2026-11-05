@@ -48,7 +48,15 @@ A base de entrada é `planilha_porsche_tratada.xlsx`, gerada no primeiro desafio
 
 - **Dashboard:** https://viniciusferreirars.github.io/porsche-ai-data-review/desafio-02-dashboard/
 - **Código:** `index.html` nesta pasta.
-- **Capturas de tela:** `preview_desafio02.png` e `exemplo_filtros.png` são os arquivos de evidência gerados localmente; devem ser enviados a esta pasta separadamente para ficarem visíveis no GitHub.
+### Evidência 1 — Visão geral do dashboard
+
+![Dashboard Porsche — visão geral com indicadores e gráficos](./preview_desafio02.png)
+
+### Evidência 2 — Filtros aplicados
+
+![Dashboard Porsche — exemplo de aplicação de filtro com indicadores atualizados](./exemplo_filtros.png)
+
+As duas capturas demonstram a tela inicial e a atualização da visualização a partir de um recorte nos dados.
 
 ## Execução
 
