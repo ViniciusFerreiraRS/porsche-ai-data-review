@@ -72,7 +72,7 @@ Dashboard HTML + relatórios + schema.md
 
 ## Segurança e privacidade
 
-Nomes de clientes, nomes de vendedores e IDs comerciais originais foram **excluídos** dos arquivos produzidos. Os códigos de vendedores são pseudônimos, não garantia de anonimização. Para uma base real, endereço aproximado, datas e modelos também podem tornar pessoas identificáveis quando combinados. Avalie a licença e a possibilidade de publicação pública da fonte antes de enviar ao GitHub. Nunca publique os dois arquivos originais ou chaves de API.
+Nomes de clientes, nomes de vendedores e IDs comerciais originais foram **excluídos** dos arquivos produzidos. Os códigos de vendedores são pseudônimos, não garantia de anonimização. Para uma base real, endereço aproximado, datas e modelos também podem tornar pessoas identificáveis quando combinados.
 
 ## Sobre os custos
 
