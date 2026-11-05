@@ -20,7 +20,7 @@ Dashboard interativo de vendas/pedidos de veículos com filtros de período, est
 
 ## Prévia do dashboard e Big Cards
 
-**Dashboard interativo:** arquivo [index.html](index.html). Para visualizá-lo como site, ative o GitHub Pages em Settings → Pages.
+**Dashboard interativo da primeira versão:** [abrir no GitHub Pages](https://viniciusferreirars.github.io/porsche-ai-data-review/) ou consultar o [index.html](index.html). A [segunda versão](https://viniciusferreirars.github.io/porsche-ai-data-review/desafio-02-dashboard/) fica em uma pasta separada.
 
 | Big Card / Indicador | Base de demonstração |
 |---|---:|
@@ -87,12 +87,16 @@ Nomes de clientes, nomes de vendedores e IDs comerciais originais foram **exclu�
 
 O controle local de custos do dashboard destina-se a despesas para **criar e manter o próprio projeto** (hospedagem, APIs, ferramentas). Dados ficam no armazenamento local do navegador, com opção de exportar CSV; não são enviados para servidor. Custos de compra dos carros e lucro não podem ser calculados com as fontes atuais.
 
-## Publicação no GitHub Pages
+## Projeto publicado — acesso e reprodução
 
-1. Crie um repositório novo (recomendado: `porsche-ai-data-review`).
-2. O projeto já contém os scripts, JSON, CSV, auditoria e documentação. Arquivos Excel e imagem de captura podem ser adicionados manualmente após revisão.
-3. Em *Settings → Pages*, selecione *Deploy from a branch*, a branch principal e diretório `/ (root)`.
-4. A página `index.html` será a tela inicial do dashboard.
+Este repositório **já é público**, está na branch `main` e contém duas versões independentes do dashboard:
+
+- **[Dashboard 01 — Data Review](https://viniciusferreirars.github.io/porsche-ai-data-review/)** · [HTML da versão 1](index.html).
+- **[Dashboard 02 — Sales Intelligence](https://viniciusferreirars.github.io/porsche-ai-data-review/desafio-02-dashboard/)** · [Código, evidências e histórico de prompts](desafio-02-dashboard/README.md).
+
+As páginas são servidas pelo **GitHub Pages** a partir dos arquivos `index.html`, sem backend. Se algum endereço não carregar, verifique a implantação em *Settings → Pages* e o status mais recente da publicação em *Actions*; a disponibilidade externa depende do serviço.
+
+Para explorar localmente, baixe ou clone o repositório e abra o HTML da versão desejada em um navegador. A base tratada já está incorporada aos dois dashboards. **Não publique dados brutos ou informações pessoais dos participantes.**
 
 *Nota de autoria:* a construção deste protótipo foi assistida por IA; descreva com transparência no portfólio as etapas revisadas e as decisões técnicas que você compreendeu ou modificou.
 
