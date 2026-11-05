@@ -6,7 +6,7 @@ Projeto educacional desenvolvido no contexto do **Projeto Vinicius Dev**, com tr
 
 **Tópicos sugeridos para o GitHub:** `dio` · `santander` · `ai-reports` · `python` · `data-cleaning` · `etl` · `dashboard` · `lgpd` · `business-intelligence`.
 
-**Descrição sugerida para o campo About do GitHub:** Exercício Santander/DIO: análise de vendas Porsche com Python, tratamento de dados, schema.md, proteção de dados e dashboard interativo.
+
 
 ## Visão geral
 
