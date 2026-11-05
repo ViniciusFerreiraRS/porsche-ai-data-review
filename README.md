@@ -5,6 +5,15 @@
 Projeto educacional desenvolvido no contexto do **Projeto Vinicius Dev**, com tratamento e validação de dados em Python, documentação `schema.md`, medidas de proteção de dados pessoais e dashboard interativo para análise de vendas Porsche. A construção contou com assistência de IA, revisão das regras e testes automatizados. Não é um produto ou projeto oficial da DIO, do Santander ou da Porsche.
 
 
+## Desafio 02 — Dashboard executivo com UI/UX inspirada na Porsche Brasil
+
+A segunda etapa da aceleração adiciona **três perguntas de negócio explícitas**, filtros por cidade e meio de pagamento, gráfico de evolução mensal com barras e linha, além de uma revisão visual em preto, grafite e vermelho.
+
+🔗 [Abrir a dashboard da Parte 2](https://viniciusferreirars.github.io/porsche-ai-data-review/desafio-02-dashboard/)  
+📄 [Ver código, requisitos, prompts e decisões da Parte 2](desafio-02-dashboard/README.md)
+
+A versão inicial continua preservada na raiz do projeto.
+
 ## Visão geral
 
 Dashboard interativo de vendas/pedidos de veículos com filtros de período, estado, modelo e situação de entrega. Inclui Data Review, dicionário de dados, rastreabilidade de regras e modelo de acompanhamento de custos operacionais do **projeto analítico**.
